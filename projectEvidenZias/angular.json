@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "projectEvidenZias:build:production"
+              "buildTarget": "projectEvidenZias:build:production"
             },
             "development": {
-              "browserTarget": "projectEvidenZias:build:development"
+              "buildTarget": "projectEvidenZias:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "projectEvidenZias:build"
+            "buildTarget": "projectEvidenZias:build"
           }
         },
         "test": {
