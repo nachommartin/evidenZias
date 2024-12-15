@@ -1,0 +1,54 @@
+.board-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem;
+  }
+  
+  .stage {
+    border: 0.063rem solid #ccc;
+    min-height: 12.5rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    background-color: #f9f9f9;
+  }
+  
+  .stage h3 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  
+  .task {
+    background-color: #fff;
+    padding: 0.625rem;
+    margin: 0.625rem 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .task:active {
+    transform: scale(1.05);
+  }
+
+  .icon-padding {
+    padding-right: 0.5rem;
+    font-size: 1rem; 
+  }
+
+  .button-container {
+    display: flex;        
+    justify-content: space-between; 
+    align-items: center;   
+    width: 100%;           
+  }
+  p-splitbutton {
+    margin-right: auto; 
+    padding-left: 0.5rem;
+  }
+  
+  p-button {
+    margin-left: auto; 
+    padding-right: 0.5rem;
+  }
+
